@@ -1,0 +1,27 @@
+INCLUDES  = -I.. -I. -I../nDPI/src/include @INCS@ @CFLAGS@
+LIBS      = 
+
+TARGETS=replayPcapFile nf_reflector sendPcap shiftPcap printRawFlowFile extractPcap
+
+all: $(TARGETS)
+
+nf_reflector: nf_reflector.c Makefile
+	gcc $(INCLUDES) -Wextra -pedantic -Wformat -Wformat-security -g nf_reflector.c -o nf_reflector -lpthread $(LIBS)
+
+replayPcapFile: replayPcapFile.c Makefile
+	gcc $(INCLUDES) -g replayPcapFile.c -o replayPcapFile -lpcap $(LIBS)
+
+sendPcap: sendPcap.c Makefile
+	gcc $(INCLUDES) -g sendPcap.c -o sendPcap -lpcap $(LIBS)
+
+shiftPcap: shiftPcap.c Makefile
+	gcc $(INCLUDES) -g shiftPcap.c -o shiftPcap -lpcap $(LIBS)
+
+extractPcap: extractPcap.c Makefile
+	gcc $(INCLUDES) -g extractPcap.c -o extractPcap -lpcap $(LIBS)
+
+printRawFlowFile:  printRawFlowFile.c Makefile
+	gcc $(INCLUDES) -g  printRawFlowFile.c -o  printRawFlowFile -lpcap $(LIBS)
+
+clean:
+	rm -f $(TARGETS)

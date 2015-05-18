@@ -1,0 +1,351 @@
+/* config.h.in.  Generated from configure.in by autoheader.  */
+
+/* Define if building universal (internal helper macro) */
+#undef AC_APPLE_UNIVERSAL_BUILD
+
+/* Enable plugin support */
+#undef ENABLE_PLUGINS
+
+/* ether_header uses ether_addr structs */
+#undef ETHER_HEADER_HAS_EA
+
+/* ARM is supported */
+#undef HAVE_ARM
+
+/* Define to 1 if you have the <arpa/inet.h> header file. */
+#undef HAVE_ARPA_INET_H
+
+/* Define to 1 if you have the <arpa/nameser.h> header file. */
+#undef HAVE_ARPA_NAMESER_H
+
+/* Define 1 if your version of gcc supports __sync_add_and_fetch */
+#undef HAVE_BUILTIN_ATOMIC
+
+/* Define to 1 if you have the <dirent.h> header file. */
+#undef HAVE_DIRENT_H
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* Define to 1 if you have the <dl.h> header file. */
+#undef HAVE_DL_H
+
+/* dna headers are present */
+#undef HAVE_DNA_HEADERS
+
+/* Define to 1 if you have the <errno.h> header file. */
+#undef HAVE_ERRNO_H
+
+/* Define to 1 if you have the <ethertype.h> header file. */
+#undef HAVE_ETHERTYPE_H
+
+/* Define to 1 if you have the <fcntl.h> header file. */
+#undef HAVE_FCNTL_H
+
+/* GeoIP support is present */
+#undef HAVE_GEOIP
+
+/* Define to 1 if you have the <GeoIP.h> header file. */
+#undef HAVE_GEOIP_H
+
+/* GeoIP IPv6 support is present */
+#undef HAVE_GEOIP_IPv6
+
+/* Define to 1 if you have the <if.h> header file. */
+#undef HAVE_IF_H
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define to 1 if you have the `cyassl' library (-lcyassl). */
+#undef HAVE_LIBCYASSL
+
+/* Define to 1 if you have the `dl' library (-ldl). */
+#undef HAVE_LIBDL
+
+/* libevent is present */
+#undef HAVE_LIBEVENT
+
+/* Define to 1 if you have the `GeoIP' library (-lGeoIP). */
+#undef HAVE_LIBGEOIP
+
+/* Define to 1 if you have the `hiredis' library (-lhiredis). */
+#undef HAVE_LIBHIREDIS
+
+/* Define to 1 if you have the `json-c' library (-ljson-c). */
+#undef HAVE_LIBJSON_C
+
+/* Define to 1 if you have the `netfilter_queue' library (-lnetfilter_queue).
+   */
+#undef HAVE_LIBNETFILTER_QUEUE
+
+/* Define to 1 if you have the <libnetfilter_queue/libnetfilter_queue.h>
+   header file. */
+#undef HAVE_LIBNETFILTER_QUEUE_LIBNETFILTER_QUEUE_H
+
+/* libnuma is installed */
+#undef HAVE_LIBNUMA
+
+/* Define to 1 if you have the `pcap' library (-lpcap). */
+#undef HAVE_LIBPCAP
+
+/* Define to 1 if you have the `pthread' library (-lpthread). */
+#undef HAVE_LIBPTHREAD
+
+/* Define to 1 if you have the `rdi' library (-lrdi). */
+#undef HAVE_LIBRDI
+
+/* Define to 1 if you have the `resolv' library (-lresolv). */
+#undef HAVE_LIBRESOLV
+
+/* Define to 1 if you have the `rt' library (-lrt). */
+#undef HAVE_LIBRT
+
+/* Define to 1 if you have the `socket' library (-lsocket). */
+#undef HAVE_LIBSOCKET
+
+/* Define to 1 if you have the `zmq' library (-lzmq). */
+#undef HAVE_LIBZMQ
+
+/* Check lprobe license */
+#undef HAVE_LICENSE
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* use mysql */
+#undef HAVE_MYSQL
+
+/* Define to 1 if you have the <mysql.h> header file. */
+#undef HAVE_MYSQL_H
+
+/* Define to 1 if you have the <mysql/mysql.h> header file. */
+#undef HAVE_MYSQL_MYSQL_H
+
+/* Define to 1 if you have the <netdb.h> header file. */
+#undef HAVE_NETDB_H
+
+/* NFQ is present */
+#undef HAVE_NETFILTER
+
+/* Define to 1 if you have the <netinet/if_ether.h> header file. */
+#undef HAVE_NETINET_IF_ETHER_H
+
+/* Define to 1 if you have the <netinet/in.h> header file. */
+#undef HAVE_NETINET_IN_H
+
+/* Define to 1 if you have the <netinet/in_systm.h> header file. */
+#undef HAVE_NETINET_IN_SYSTM_H
+
+/* Define to 1 if you have the <netinet/ip.h> header file. */
+#undef HAVE_NETINET_IP_H
+
+/* Define to 1 if you have the <netinet/ip_icmp.h> header file. */
+#undef HAVE_NETINET_IP_ICMP_H
+
+/* Define to 1 if you have the <netinet/tcp.h> header file. */
+#undef HAVE_NETINET_TCP_H
+
+/* Define to 1 if you have the <netinet/udp.h> header file. */
+#undef HAVE_NETINET_UDP_H
+
+/* Define to 1 if you have the <net/bpf.h> header file. */
+#undef HAVE_NET_BPF_H
+
+/* Define to 1 if you have the <net/ethernet.h> header file. */
+#undef HAVE_NET_ETHERNET_H
+
+/* Define to 1 if you have the <net/if.h> header file. */
+#undef HAVE_NET_IF_H
+
+/* Time we compiled lprobe */
+#undef HAVE_NOW
+
+/* lprobe extensions present */
+#undef HAVE_lprobe_EXTENSIONS
+
+/* libc has optreset */
+#undef HAVE_OPTRESET
+
+/* pcap has pcap_next_ex */
+#undef HAVE_PCAP_NEXT_EX
+
+/* Native PF_RING support */
+#undef HAVE_PF_RING
+
+/* Check lprobe plugin licenses */
+#undef HAVE_PLUGIN_LICENSE
+
+/* Define to 1 if you have the <pthread.h> header file. */
+#undef HAVE_PTHREAD_H
+
+/* libpthread has pthread_setaffinity_np */
+#undef HAVE_PTHREAD_SET_AFFINITY
+
+/* Define to 1 if you have the <pwd.h> header file. */
+#undef HAVE_PWD_H
+
+/* Apache Kafka is present */
+#undef HAVE_RDKAFKA
+
+/* redis is present */
+#undef HAVE_REDIS
+
+/* pthread has rw locks */
+#undef HAVE_RW_LOCK
+
+/* Define to 1 if you have the <sched.h> header file. */
+#undef HAVE_SCHED_H
+
+/* SCTP is supported */
+#undef HAVE_SCTP
+
+/* Define to 1 if you have the <semaphore.h> header file. */
+#undef HAVE_SEMAPHORE_H
+
+/* Define to 1 if you have the <signal.h> header file. */
+#undef HAVE_SIGNAL_H
+
+/* sockaddr_in6 has sin6_len */
+#undef HAVE_SIN6_LEN
+
+/* We have sqlite */
+#undef HAVE_SQLITE
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdio.h> header file. */
+#undef HAVE_STDIO_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the <syslog.h> header file. */
+#undef HAVE_SYSLOG_H
+
+/* Define to 1 if you have the <sys/ioctl> header file. */
+#undef HAVE_SYS_IOCTL
+
+/* Define to 1 if you have the <sys/ldr.h> header file. */
+#undef HAVE_SYS_LDR_H
+
+/* Define to 1 if you have the <sys/sched.h> header file. */
+#undef HAVE_SYS_SCHED_H
+
+/* Define to 1 if you have the <sys/select.h> header file. */
+#undef HAVE_SYS_SELECT_H
+
+/* Define to 1 if you have the <sys/socket.h> header file. */
+#undef HAVE_SYS_SOCKET_H
+
+/* Define to 1 if you have the <sys/sockio.h> header file. */
+#undef HAVE_SYS_SOCKIO_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/syslog.h> header file. */
+#undef HAVE_SYS_SYSLOG_H
+
+/* Define to 1 if you have the <sys/time.h> header file. */
+#undef HAVE_SYS_TIME_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <sys/un.h> header file. */
+#undef HAVE_SYS_UN_H
+
+/* Define to 1 if you have the <sys/wait.h> header file. */
+#undef HAVE_SYS_WAIT_H
+
+/* Have template extensions */
+#undef HAVE_TEMPLATE_EXTENSIONS
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* use yaSSL */
+#undef HAVE_YASSL
+
+/* ZMQ is present */
+#undef HAVE_ZMQ
+
+/* inet_aton */
+#undef NEED_INET_ATON
+
+/* build for big endian */
+#undef lprobe_BIG_ENDIAN
+
+/* build for little endian */
+#undef lprobe_LITTLE_ENDIAN
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* Version number of package */
+#undef VERSION
+
+/* Define WORDS_BIGENDIAN to 1 if your processor stores words with the most
+   significant byte first (like Motorola and SPARC, unlike Intel). */
+#if defined AC_APPLE_UNIVERSAL_BUILD
+# if defined __BIG_ENDIAN__
+#  define WORDS_BIGENDIAN 1
+# endif
+#else
+# ifndef WORDS_BIGENDIAN
+#  undef WORDS_BIGENDIAN
+# endif
+#endif
+
+/* Define to `short' if <sys/types.h> does not define. */
+#undef int16_t
+
+/* Define to `long' if <sys/types.h> does not define. */
+#undef int32_t
+
+/* Define to `long long' if <sys/types.h> does not define. */
+#undef int64_t
+
+/* Define to `char' if <sys/types.h> does not define. */
+#undef int8_t
+
+/* Define to `unsigned short' if <sys/types.h> does not define. */
+#undef u_int16_t
+
+/* Define to `unsigned long' if <sys/types.h> does not define. */
+#undef u_int32_t
+
+/* Define to `unsigned long long' if <sys/types.h> does not define. */
+#undef u_int64_t
+
+/* Define to `unsigned char' if <sys/types.h> does not define. */
+#undef u_int8_t
